@@ -1,0 +1,25 @@
+//
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define PI 3.14159265359
+
+int main() {
+    int a,b,c,d,e,f;
+    scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f);
+    const float pi=3.141;
+    int g,h,j;
+    g=a*a;
+    h=b*c;
+    float i=floor(PI*d*d*100)/100;
+    j=0.5*e*f;
+    printf("Area of Square=%d\n",g);
+    printf("Area of Rectangle=%d\n",h);
+    printf("Area of Circle=%.2f\n",(float)i);
+    printf("Area of Triangle=%d",j);
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
