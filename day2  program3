@@ -1,0 +1,17 @@
+//The newspaper agency
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define pi 3.141
+
+int main() {
+
+    int s,l,w,r,b1,si,b2;
+    scanf("%d\n%d\n%d\n%d\n%d\n%d\n%d",&s,&l,&w,&r,&b1,&si,&b2);
+    printf("Perimeter of Square:%d\n",(4*s));
+    printf("Perimeter of Rectangle:%d\n",(2*(l+w)));
+    printf("Perimeter of Circle:%.2f\n",(float)(2*pi*r));
+    printf("Perimeter of Triangle:%d",(b1+si+b2));
+    return 0;
+}
