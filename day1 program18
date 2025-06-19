@@ -1,0 +1,18 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,f,l;
+    scanf("%d",&a);
+    
+    f=a/1000;
+    l=a%10;
+    
+    printf("%d",f+l);
+    return 0;
+}
