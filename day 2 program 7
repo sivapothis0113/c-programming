@@ -1,0 +1,32 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    float a,b,c;
+    scanf("%f %f",&a,&b);
+    
+    c=a/((b/100)*(b/100));
+    
+    if(c<18.5)
+    {
+        printf("You are underweight. Have an apple daily.");
+    }
+    else if(c>=18.5 && c<=24.9)
+    {
+        printf("You are normal. Go walking daily and maintain it.");
+    }
+    else if(c>=25 && c<=29.9)
+    {
+        printf("You are overweight. Go to Gym daily.");
+    }
+    else if(c>30)
+    {
+        printf("You are obese. You need to see a doctor.");
+    }
+    return 0;
+}
