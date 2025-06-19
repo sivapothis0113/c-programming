@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int X,Y,R;
+    float i,t,d,fi;
+    scanf("%d %d %d",&X,&R,&Y);
+    i=(X*Y*R)/100;
+    t=i+X;
+    d=i*0.02;
+    fi=t-d;
+    printf("%.2f\n",(float)i);
+    printf("%.2f\n",(float)t);
+    printf("%.2f\n",(float)d);
+    printf("%.2f\n",(float)fi);
+    return 0;
+}
